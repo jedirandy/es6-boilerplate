@@ -39,15 +39,22 @@ module.exports = function(config) {
             ['babelify', {
                 presets: ['es2015'],
                 sourceMaps: 'inline'
-            }]
+            }],
+            require('browserify-istanbul')({
+                instrumenter: require('isparta'),
+                ignore: ['test/**/*.js']
+            })
         ]
     },
 
     // test results reporter to use
     // possible values: 'dots', 'progress'
     // available reporters: https://npmjs.org/browse/keyword/karma-reporter
-    reporters: ['progress'],
+    reporters: ['progress', 'coverage'],
 
+    coverageReporter: {
+        type: 'text'
+    },
 
     // web server port
     port: 9876,
