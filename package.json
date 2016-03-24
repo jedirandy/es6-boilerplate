@@ -28,11 +28,9 @@
     "karma-mocha": "~0.2.1",
     "karma-coverage": "^0.5.3",
     "karma-phantomjs-launcher": "~0.2.1",
-    "phantomjs": "~1.9.19",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
-    "babel-polyfill": "^6.3.14"
   }
 }

@@ -1,9 +1,15 @@
-# ES-6
+# ES6 gulp browserify
 
-ES6 boilerplate with Babel(es2015 preset), Karma, Mocha, Chai
+[![dependencies](https://david-dm.org/jedirandy/es6-boilerplate.svg)](https://david-dm.org/jedirandy/es6-boilerplate)
 
-### build
-```gulp build```
+An ES6 development boilerplate (early 2016)
+- gulp
+- browserify
+- babel (es2015 preset)
+- karma with mocha, chai
 
-to auto-build when a files is changed
-```gulp build:watch```
+## Scripts
+
+to build: `npm build`
+
+to launch tests: `npm test`
