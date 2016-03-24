@@ -1,5 +1,6 @@
 # ES6 gulp browserify
 
+[![dependencies](https://david-dm.org/jedirandy/es6-boilerplate.svg)](https://david-dm.org/jedirandy/es6-boilerplate)
 [![devDependency Status](https://david-dm.org/jedirandy/es6-boilerplate/dev-status.svg)](https://david-dm.org/jedirandy/es6-boilerplate#info=devDependencies)
 
 An ES6 development boilerplate (early 2016)
